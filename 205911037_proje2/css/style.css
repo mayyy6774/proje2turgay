@@ -1,0 +1,42 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body,
+html {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 3rem;
+    letter-spacing: 0.1rem;
+}
+
+div {
+    display: block;
+    width: 400px;
+    margin: auto;
+}
+
+h1 {
+    text-align: center;
+    color: black;
+    font-family: 'Lemonada', cursive !important;
+    text-transform: uppercase;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+#completed-tasks span {
+    text-decoration: line-through;
+    font-size: 1.2em !important;
+}
+.footer {
+    position: absolute;
+    bottom: 0;
+}
